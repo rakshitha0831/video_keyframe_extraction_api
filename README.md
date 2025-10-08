@@ -133,7 +133,7 @@ Access locally at:
 
 ---
 
-## 🚀 Deployment Guide
+##  Deployment Guide
 
 ### 🖥️ Local Deployment (Recommended for Testing)
 
@@ -231,4 +231,5 @@ To build a simple, functional API that applies computer vision in a real-world s
 Developed as part of a practical AI engineering showcase focusing on  **computer vision, backend APIs, and visual intelligence** .
 
 Special thanks to open-source contributors of the **FastAPI** and **OpenCV** communities for their robust frameworks and documentation that made this implementation possible.
+
 
