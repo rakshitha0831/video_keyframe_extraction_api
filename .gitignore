@@ -1,0 +1,21 @@
+# Python cache and environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Output and large media
+outputs/*.jpg
+*.mp4
+*.avi
+
+# Temporary / local files
+*.zip
+*.log
+*.tmp
