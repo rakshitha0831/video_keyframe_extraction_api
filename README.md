@@ -87,11 +87,17 @@ The system processes videos frame by frame, detects major visual transitions, an
 
 ## Visual Output Example
 
-| Key Frame                                                 | Timestamp |
-| --------------------------------------------------------- | --------- |
-| ![Keyframe 1](https://chatgpt.com/c/outputs/keyframe_1.jpg) | 00:00:02  |
-| ![Keyframe 2](https://chatgpt.com/c/outputs/keyframe_2.jpg) | 00:00:04  |
-| ![Keyframe 3](https://chatgpt.com/c/outputs/keyframe_3.jpg) | 00:00:07  |
+The extracted keyframes are automatically saved in the **`outputs/`** folder after each video upload.  
+Each keyframe is timestamped and can be previewed collectively at:
+
+👉 [http://127.0.0.1:8000/preview](http://127.0.0.1:8000/preview)
+
+Example:
+
+outputs/
+├── keyframe_1.jpg
+├── keyframe_2.jpg
+└── keyframe_3.jpg
 
 ---
 
@@ -225,3 +231,4 @@ To build a simple, functional API that applies computer vision in a real-world s
 Developed as part of a practical AI engineering showcase focusing on  **computer vision, backend APIs, and visual intelligence** .
 
 Special thanks to open-source contributors of the **FastAPI** and **OpenCV** communities for their robust frameworks and documentation that made this implementation possible.
+
